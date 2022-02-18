@@ -18,7 +18,7 @@ export default class ItemAddForm extends Component {
         event.preventDefault();
         this.props.addItem(this.state.label);
         this.setState({
-            label: '1'
+            label: ''
         });
     };
 
